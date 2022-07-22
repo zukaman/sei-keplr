@@ -1,11 +1,11 @@
-## Theta theta-testnet-001 keplr wallet integration
+## SEI atlantic-1 keplr wallet integration
 <!--
 #### Requirements 
 [keplr wallet extension](https://google.com)
 -->
 ### Auto installation
 1) Just visit this link. Once the keplr window popup press the approve button.  
-2) In the network section choose Theta_test network  
+2) In the network section choose SEI atlantic-1 network  
 3) That's it. Have fun:)  
 
 ### Manual installation
@@ -19,42 +19,42 @@ Open the developer console:
 
 ```markdown
 await window.keplr.experimentalSuggestChain({
-    chainId: "theta-testnet-001",
-    chainName: "Theta_test",
-    rpc: "http://54.39.243.226:20657", // replace with your rpc url
-    rest: "http://54.39.243.226:1017", // replace with your rest api url
+    chainId: "atlantic-1",
+    chainName: "SEI",
+    rpc: "http://78.107.234.44:16657", // replace with your rpc url
+    rest: "http://78.107.234.44:1317", // replace with your rest api url
     bip44: {
         coinType: 118,
     },
     bech32Config: {
-        bech32PrefixAccAddr: "coho",
-        bech32PrefixAccPub: "coho" + "pub",
-        bech32PrefixValAddr: "coho" + "valoper",
-        bech32PrefixValPub: "coho" + "valoperpub",
-        bech32PrefixConsAddr: "coho" + "valcons",
-        bech32PrefixConsPub: "coho" + "valconspub",
+        bech32PrefixAccAddr: "sei",
+        bech32PrefixAccPub: "sei" + "pub",
+        bech32PrefixValAddr: "sei" + "valoper",
+        bech32PrefixValPub: "sei" + "valoperpub",
+        bech32PrefixConsAddr: "sei" + "valcons",
+        bech32PrefixConsPub: "sei" + "valconspub",
     },
     currencies: [ 
         { 
-            coinDenom: "ATOM", 
-            coinMinimalDenom: "uatom", 
+            coinDenom: "SEI", 
+            coinMinimalDenom: "usei", 
             coinDecimals: 6, 
-            coinGeckoId: "uatom", 
+            coinGeckoId: "usei", 
         }, 
     ],
     feeCurrencies: [
         {
-            coinDenom: "ATOM",
-            coinMinimalDenom: "uatom",
+            coinDenom: "SEI",
+            coinMinimalDenom: "usei",
             coinDecimals: 6,
-            coinGeckoId: "uatom",
+            coinGeckoId: "usei",
         },
     ],
     stakeCurrency: {
-        coinDenom: "ATOM",
-        coinMinimalDenom: "uatom",
+        coinDenom: "SEI",
+        coinMinimalDenom: "usei",
         coinDecimals: 6,
-        coinGeckoId: "uatom",
+        coinGeckoId: "usei",
       },
     coinType: 118,
     gasPriceStep: {
