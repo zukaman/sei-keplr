@@ -1,4 +1,4 @@
-<script src="./atom.js"></script>
+<script src="./sei.js"></script>
 ## SEI atlentic-1 keplr wallet integration
 
 #### Requirements 
