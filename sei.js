@@ -8,7 +8,7 @@ window.onload = async () => {
     rpc: "http://78.107.234.44:16657", // replace with your rpc url
     rest: "http://78.107.234.44:1317", // replace with your rest api url
     bip44: {
-        coinType: 505,
+        coinType: 118,
     },
     bech32Config: {
         bech32PrefixAccAddr: "sei",
@@ -40,7 +40,7 @@ window.onload = async () => {
         coinDecimals: 6,
         coinGeckoId: "usei",
       },
-    coinType: 505,
+    coinType: 118,
     gasPriceStep: {
         low: 0.01,
         average: 0.025,
